@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 .template-example{
   margin-bottom: 30px;
   .template-title-example{
@@ -32,4 +37,11 @@
     margin-right: 5px;
   }
   
+}
+
+.myimg {
+  width: 37%;
+  border-radius: 999999rem;
+  box-shadow: 0 3px 2px rgba(0,0,0,.6) ;
+  margin-bottom: 4rem;
 }

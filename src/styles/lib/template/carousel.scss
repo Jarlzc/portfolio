@@ -38,9 +38,9 @@
 
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img{
-  max-width: 100%;
+  max-width: 90%;
   @media (min-width: $screen-md) {
-    max-width: 80%;
+    max-width: 70%;
   }
 }
 
