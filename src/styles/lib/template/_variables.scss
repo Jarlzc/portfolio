@@ -15,7 +15,7 @@ $gray:                   lighten($gray-base, 33.5%) !default; // #555
 $gray-light:             lighten($gray-base, 46.7%) !default; // #777
 $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 
-$brand-primary:         #1763E9 !default; // #337ab7
+$brand-primary:         #003366 !default; 
 $brand-success:         #5cb85c !default;
 $brand-info:            #08005F !default;
 $brand-warning:         #f0ad4e !default;
@@ -27,7 +27,7 @@ $brand-danger:          #d9534f !default;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #fff !default;
+$body-bg:               rgb(245, 243, 243) !default;
 //** Global text color on `<body>`.
 $text-color:            #838383 !default;
 
@@ -503,7 +503,7 @@ $jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
 //
 //## Define colors for form feedback states and, by default, alerts.
 
-$state-success-text:             #FFF !default;
+$state-success-text:             #FFFFFF !default;
 $state-success-bg:               #08005F !default;
 $state-success-border:           $state-success-bg !default;
 
