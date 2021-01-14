@@ -39,6 +39,16 @@ html{
   
 }
 
+.heroheading {
+  letter-spacing: 3rem; 
+  font-weight:300;
+  @media (max-width: $screen-md-min) {
+    letter-spacing: 1rem;
+    font-size: 4rem;
+    margin-top: 10rem;
+  }
+}
+
 .myimg {
   width: 40%;
   border-radius: 999999rem;
